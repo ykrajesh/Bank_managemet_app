@@ -4,5 +4,5 @@ provider "azurerm" {
 # create the resource group
 resource "azurerm_resource_group" "rg" {
   name     = "rg-vms"
-  location = "east us"
+  location = "west us"
 }
